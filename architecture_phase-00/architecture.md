@@ -11,7 +11,7 @@
 
 This lab is an isolated virtual security operations environment intentionally separated from the host's normal home network (`192.168.1.0/24`).
 
-![alttext](images/SOC_Architure_Phase_0[Redacted_IP].png)
+![alttext](network-diagram.png)
 
 ## 2. Physical Host & Virtual Machine Inventory
 
@@ -103,7 +103,6 @@ Gateway:          None
 - SSH was installed and verified during Phase 0.
 - Splunk Enterprise installation belongs to a later phase.
 
-------------------------------------------------------------------------
 
 ## 7. SOC-WIN-01
 
