@@ -22,7 +22,7 @@ The goal isn't to install a checklist of security tools — it's to show the com
 
 | Phase | Focus | Status |
 |---|---|---|
-| 0 | Lab Foundation | [`architecture_phase-00/architecture.md`](architecture_phase-00/architecture.md) |
+| 0 | Lab Foundation | ✅ [Complete](architecture_phase-00/architecture.md) ||
 
 **Layer 2 — Security Operations**
 
