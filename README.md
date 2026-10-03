@@ -1,6 +1,6 @@
 # Modular SOC Simulation Lab
 
-![Status](https://img.shields.io/badge/Phase-0%2F12%20Complete-blue) ![Hypervisor](https://img.shields.io/badge/Hypervisor-VMware%20Workstation-informational) ![SIEM](https://img.shields.io/badge/SIEM-Splunk%20(planned)-lightgrey)
+![Status](https://img.shields.io/badge/Phase-2%2F12%20Complete-blue) ![Hypervisor](https://img.shields.io/badge/Hypervisor-VMware%20Workstation-informational) ![SIEM](https://img.shields.io/badge/SIEM-Splunk%20(planned)-lightgrey)
 
 A progressively-built home SOC lab that simulates the real workflow of a Security Operations Center — from generating telemetry to detecting, investigating, and documenting security incidents.
 
@@ -28,8 +28,8 @@ The goal isn't to install a checklist of security tools — it's to show the com
 
 | Phase | Focus | Status |
 |---|---|---|
-| 1 | Splunk SIEM | ⬜ Planned |
-| 2 | Windows Endpoint Telemetry | ⬜ Planned |
+| 1 | Splunk SIEM | ✅ [Complete](./modules/phase-01-splunk.md) |
+| 2 | Windows Endpoint Telemetry | ✅ [Complete](./modules/phase-02-windows-endpoint-telemetry.md) |
 | 3 | Log Collection | ⬜ Planned |
 | 4 | Detection Engineering | ⬜ Planned |
 | 5 | Attack Simulation | ⬜ Planned |
