@@ -1105,46 +1105,23 @@ It should not blindly make high-impact decisions without appropriate validation.
 
 The repository should grow with the lab.
 
-Initial structure:
-
 ```text
 soc-simulation-lab/
-│
 ├── README.md
-│
-├── architecture/
-│   ├── network-diagram.png
-│   └── architecture.md
-│
-├── modules/
-│   ├── 00-infrastructure/
-│   ├── 01-splunk/
-│   ├── 02-windows-telemetry/
-│   ├── 03-log-collection/
-│   ├── 04-detection-engineering/
-│   ├── 05-attack-simulation/
-│   ├── 06-investigation/
-│   ├── 07-incident-response/
-│   ├── 08-network-monitoring/
-│   ├── 09-active-directory/
-│   ├── 10-advanced-detection/
-│   ├── 11-threat-intelligence/
-│   └── 12-automation/
-│
-├── detections/
-│
-├── attack-scenarios/
-│
-├── investigations/
-│
-├── incident-reports/
-│
-├── scripts/
-│
-├── screenshots/
-│
-└── documentation/
+├── docs/
+│   ├── project-plan.md
+│   └── phase-<number>-<name>.md
+└── Media/
+    ├── network-diagram.png
+    └── phase-specific evidence/
 ```
+
+- `README.md`: recruiter-friendly project summary, architecture image, technology stack, phase status, and links.
+- `docs/project-plan.md`: this roadmap and project-level completion criteria.
+- `docs/phase-*.md`: concise phase objectives, scope, validation, results, and a link to the next phase.
+- `Media/`: sanitized diagrams, screenshots, and supporting outputs.
+
+Avoid duplicating detailed phase instructions in the main README.
 
 The repository should not contain every directory before the work exists. Folders should be added as each phase is implemented.
 
