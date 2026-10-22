@@ -22,14 +22,14 @@ The goal isn't to install a checklist of security tools — it's to show the com
 
 | Phase | Focus | Status |
 |---|---|---|
-| 0 | Lab Foundation | ✅ [Complete](architecture_phase-00/architecture.md) ||
+| 0 | Lab Foundation | ✅ [Complete](./docs/phase-00-lab-foundation-architecture.md) ||
 
 **Layer 2 — Security Operations**
 
 | Phase | Focus | Status |
 |---|---|---|
-| 1 | Splunk SIEM | ✅ [Complete](./modules/phase-01-splunk.md) |
-| 2 | Windows Endpoint Telemetry | ✅ [Complete](./modules/phase-02-windows-endpoint-telemetry.md) |
+| 1 | Splunk SIEM | ✅ [Complete - `docs/phase-01-splunk.md`](./docs/phase-01-splunk.md) |
+| 2 | Windows Endpoint Telemetry | ✅ [Complete - `docs/phase-02-windows-endpoint-telemetry.md`](./docs/phase-02-windows-endpoint-telemetry.md) |
 | 3 | Log Collection | ⬜ Planned |
 | 4 | Detection Engineering | ⬜ Planned |
 | 5 | Attack Simulation | ⬜ Planned |
@@ -54,7 +54,7 @@ Full phase objectives, detection standards, and documentation templates: [`docs/
 
 ### Target — Full Lab (All 13 Phases)
 
-![Complete SOC Lab Architecture](docs/Complete_Lab.png)
+![Complete SOC Lab Architecture](./media/Complete_Lab.png)
 
 *Target end-state across the full roadmap — not yet fully implemented (see Progress above).*
 
@@ -62,9 +62,9 @@ Full phase objectives, detection standards, and documentation templates: [`docs/
 
 Three isolated VMs on a dedicated VMware host-only network (`192.168.50.0/24`), fully separated from the home network — a SIEM host, a Windows endpoint, and an attacker box — with static addressing, no default gateway on any lab VM, and clean recovery snapshots for all three.
 
-![Phase 0 Architecture](architecture_phase-00/network-diagram.png)
+![Phase 0 Architecture](./media/network-diagram.png)
 
-Full write-up: [`architecture_phase-00/architecture.md`](architecture_phase-00/architecture.md)
+Full write-up: [`docs/phase-00-lab-foundation-architecture.md`](./docs/phase-00-lab-foundation-architecture.md)
 
 ## Skills demonstrated so far (Phase 0)
 
